@@ -6,6 +6,3 @@
 ### To-do
 
  - [x] Hello Word
- - [ ] Calculator
- - [ ] Complex Program
- - [ ] Snake Game
