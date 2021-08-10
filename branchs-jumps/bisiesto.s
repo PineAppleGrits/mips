@@ -12,7 +12,7 @@ main:
 
 li       $v0, 4         # print_str code
 la       $a0, prompt    #
-syscall                 # printf("Ingrese un numero: ")
+syscall                 # printf("Ingrese el año: ")
 
 li       $v0, 5         # read_int code
 syscall                 # scanf("%d", &n)
