@@ -2,8 +2,8 @@
 
 ## Introducción a MIPS
 
-- [ ] 1. ¿Cuál es el código en MIPS para el siguiente enunciado de C? `f = g + (h - 5);`
-- [ ] 2. Escribir un programa que acepte dos números enteros del usuario y calcule el cociente y resto de la división entera. El resultado tiene que verse así en la consola:
+- [x] 1. ¿Cuál es el código en MIPS para el siguiente enunciado de C? `f = g + (h - 5);`
+- [x] 2. Escribir un programa que acepte dos números enteros del usuario y calcule el cociente y resto de la división entera. El resultado tiene que verse así en la consola:
 
 
 ## MIPS: branchs y Jumps
@@ -11,16 +11,16 @@
 - [x] 1. Escribir un programa en MIPS que decida si un año es bisiesto o no.
 - [x] 2. Escribir un programa en MIPS que decida si un número es par o no.
 - [x] 3. Escribir un programa en MIPS que devuelva el valor absoluto de un número ingresado por el usuario.
-- [x] 4. Escribir un programa en MIPS que acepte números ingresados por el usuario hasta que el usuario ingrese el número cero. La salida del programa es la suma de todos los números ingresados.
+- [x] 4. Escribir un programa en MIPS que acepte números ingresados por el usuario hasta que el usuario ingrese el número cero.  La salida del programa es la suma de todos los números ingresados.
 - [x] 5. Mismo programa que el ejercicio tres, pero imprimiendo la suma y el promedio de los números ingresados.
 - [x] 6. Escribir un programa en MIPS que calcule el factorial de un número.
 - [x] 7. Escribir un programa en MIPS que sume los números del 1 al 100.
 - [x] 8. Escribir un programa que imprima las primeras n potencias de dos, siendo n un número ingresado por el usuario. Al finalizar el programa debe imprimir la suma de las potencias calculadas.
-- [ ] 9. Escribir un programa que tome dos números enteros positivos e imprima "verdadero" si alguno de los argumentos es divisible por el otro.
-- [ ] 10. Escribir un programa que tome tres números enteros positivos ingresados por el usuario. Debe imprimir "falso" si alguno es igual o mayor a la suma de los otros dos, o "verdadero" en caso contrario.
-- [ ] 11. Escribir un programa que imprima los números entre el 1000 y el 1999, mostrando 5 números por línea.
-- [ ] 12. Escribir un programa que acepte tres números enteros e imprima "iguales" si los tres números son iguales o "no iguales" de lo contrario.
-- [ ] 13. Escribir un programa que acepte un número entero *n* y use dos loops anidados para imprimir un patrón como el de un tablero de ajedrez usando asteriscos y espacios con *n* filas y columnas.
+- [x] 9. Escribir un programa que tome dos números enteros positivos e imprima "verdadero" si alguno de los argumentos es divisible por el otro.
+- [x] 10. Escribir un programa que tome tres números enteros positivos ingresados por el usuario. Debe imprimir "falso" si alguno es igual o mayor a la suma de los otros dos, o "verdadero" en caso contrario.
+- [x] 11. Escribir un programa que imprima los números entre el 1000 y el 1999, mostrando 5 números por línea.
+- [x] 12. Escribir un programa que acepte tres números enteros e imprima "iguales" si los tres números son iguales o "no iguales" de lo contrario.
+- [x] 13. Escribir un programa que acepte un número entero *n* y use dos loops anidados para imprimir un patrón como el de un tablero de ajedrez usando asteriscos y espacios con *n* filas y columnas.
 
 ## MIPS: funciones
 
