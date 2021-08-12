@@ -3,8 +3,8 @@
 [![Top language](https://img.shields.io/github/languages/top/PineAppleGrits/Assembly-Basics)](https://github.com/PineAppleGrits/Assembly-Basics) 
 [![Last commit](https://img.shields.io/github/last-commit/PineAppleGrits/Assembly-Basics)](https://github.com/PineAppleGrits/Assembly-Basics) 
 [![Code size](https://img.shields.io/github/languages/code-size/PineAppleGrits/Assembly-Basics)](https://github.com/PineAppleGrits/Assembly-Basics)
-[![Commits](https://img.shields.io/github/commit-activity/w/PineAppleGrits/assembly-Basics?style=for-the-badge)](https://github.com/PineAppleGrits/Assembly-Basics)
-[![LastUpdate](https://img.shields.io/github/last-commit/PineAppleGrits/assembly-Basics/main?style=for-the-badge)](https://github.com/PineAppleGrits/Assembly-Basics)
+[![Commits](https://img.shields.io/github/commit-activity/m/PineAppleGrits/assembly-Basics)](https://github.com/PineAppleGrits/Assembly-Basics)
+[![LastUpdate](https://img.shields.io/github/last-commit/PineAppleGrits/assembly-basics)](https://github.com/PineAppleGrits/Assembly-Basics)
 ## Introducción a MIPS ✔️
 
 - [x] 1. ¿Cuál es el código en MIPS para el siguiente enunciado de C? `f = g + (h - 5);`
