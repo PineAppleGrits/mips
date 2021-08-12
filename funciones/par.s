@@ -1,9 +1,9 @@
-# saber año bisiesto
+# saber numero par
 
 .data
-prompt: .asciiz "Ingrese el año: "
-bisiesto_true: .asciiz "El año es bisiesto."
-bisiesto_false: .asciiz "El año no es bisiesto. "
+prompt: .asciiz "Ingrese el numero: "
+par_true: .asciiz "El numero es par."
+par_false: .asciiz "El numero no es par."
 
 .text
 .globl main
@@ -12,12 +12,12 @@ main:
 
 li       $v0, 4         # print_str code
 la       $a0, prompt    #
-syscall                 # printf("Ingrese el año: ")
+syscall                 # printf("Ingrese un numero: ")
 
 li       $v0, 5         # read_int code
 syscall                 # scanf("%d", &n)
 move     $a0, $v0       # t0 es el numero leido
-jal		bisiesto_funct				# jump to bisiesto_funct and save position to $ra
+jal par_fn
 move $t3, $v0
 li $v0, 1
 move $a0, $t3
@@ -26,13 +26,11 @@ exit:
 li       $v0, 10        # exit
 syscall                 # exit
 
-
-
-bisiesto_funct:
-    li      $s1, 4
-    div		$a0, $s1			# $t0 / $s1
-    mfhi	$v0				# $t3 = $t0 mod $s1 
-    beq		$v0, $zero, fn_true	# if $t0 == $s1 then target
+par_fn:
+    li      $s1, 2
+    div		$a0, $s1			# $t0 / $t1
+    mfhi	$s3					# $t3 = $t0 mod $t1 
+    beq		$s3, $zero, fn_true	# if $t0 == $t1 then target
     fn_false:
     li $v0, 0
     j fn_return
