@@ -4,8 +4,6 @@
 [![Last commit](https://img.shields.io/github/last-commit/PineAppleGrits/Assembly-Basics)](https://github.com/PineAppleGrits/Assembly-Basics) 
 [![Code size](https://img.shields.io/github/languages/code-size/PineAppleGrits/Assembly-Basics)](https://github.com/PineAppleGrits/Assembly-Basics)
 [![Commits](https://img.shields.io/github/commit-activity/m/PineAppleGrits/assembly-Basics)](https://github.com/PineAppleGrits/Assembly-Basics)
-[![LastUpdate](https://img.shields.io/github/last-commit/PineAppleGrits/assembly-basics)](https://github.com/PineAppleGrits/Assembly-Basics)
-## Introducción a MIPS ✔️
 
 - [x] 1. ¿Cuál es el código en MIPS para el siguiente enunciado de C? `f = g + (h - 5);`
 - [x] 2. Escribir un programa que acepte dos números enteros del usuario y calcule el cociente y resto de la división entera. El resultado tiene que verse así en la consola:
