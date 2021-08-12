@@ -1,12 +1,12 @@
 # Ejercicios
 
-## Introducción a MIPS
+## Introducción a MIPS ✔️
 
 - [x] 1. ¿Cuál es el código en MIPS para el siguiente enunciado de C? `f = g + (h - 5);`
 - [x] 2. Escribir un programa que acepte dos números enteros del usuario y calcule el cociente y resto de la división entera. El resultado tiene que verse así en la consola:
 
 
-## MIPS: branchs y Jumps
+## MIPS: branchs y Jumps ✔️
 
 - [x] 1. Escribir un programa en MIPS que decida si un año es bisiesto o no.
 - [x] 2. Escribir un programa en MIPS que decida si un número es par o no.
@@ -22,9 +22,9 @@
 - [x] 12. Escribir un programa que acepte tres números enteros e imprima "iguales" si los tres números son iguales o "no iguales" de lo contrario.
 - [x] 13. Escribir un programa que acepte un número entero *n* y use dos loops anidados para imprimir un patrón como el de un tablero de ajedrez usando asteriscos y espacios con *n* filas y columnas.
 
-## MIPS: funciones
+## MIPS: funciones ❌
 
-- [ ] 1. Reescribir el ejercicio 1 del apunte anterior como una función. La función debe recibir un año como argumento y devolver 1 si es bisiesto o 0 si no lo es.
+- [x] 1. Reescribir el ejercicio 1 del apunte anterior como una función. La función debe recibir un año como argumento y devolver 1 si es bisiesto o 0 si no lo es.
 - [ ] 2. Reescribir el ejercicio 2 del apunte anterior como una función. La función debe recibir un número entero como argumento y devolver 1 si es par o 0 si es impar.
 - [ ] 3. Reescribir el ejercicio 3 del apunte anterior como una función. La función recibe un entero com argumento y devuelve su valor absoluto.
 - [ ] 4. Escribir una función `is_triangle` que reciba tres argumentos enteros y devuelva 1 si los 3 números pueden ser las longitudes de los lados de un tríangulo o 0 de lo contrario. Ver el ejercicio 10 del apunte anterior.
@@ -32,14 +32,14 @@
 - [ ] 6. Reescribir la función factorial pero esta vez de manera recursiva.
 - [ ] 7. Escribir una función que devuelva la suma de los primeros *n* números naturales. La cantidad *n* de números es un argumento de la función.
 
-## MIPS: código máquina
+## MIPS: código máquina ❌
 
 - [ ] 1. Traducir de ensamblador de MIPS a código máquina: `lw $t0, 1200($t1)`.
 - [ ] 2. Traducir de ensamblador de MIPS a código máquina: `add $t0, $s2, $t0`.
 - [ ] 3. Traducir de ensamblador de MIPS a código máquina: `sw $t0, 1200($t1)`.
 - [ ] 4. Traducir de código máquina a ensamblador de MIPS: `0x01095022`.
 
-## Lógica digital
+## Lógica digital ❌
 
 - [ ] 1. Dar la tabla de verdad para la compuerta AND de 3 entradas.
 - [ ] 2. Dar la tabla de verdad para el circuito que compara dos números de dos bits. Las dos compuertas que aparecen ahí son XNOR, es decir la negación de XOR.
